@@ -22,6 +22,8 @@ namespace PruebaAlExito
             int x = Convert.ToInt32(tBX.Text);
             int y = Convert.ToInt32(tBY.Text);
             but.Text = (x + y).ToString();
+            but.BackColor = Color.Green;
+            MessageBox.Show("La suma es: " + (x + y).ToString());
         }
     }
 }
